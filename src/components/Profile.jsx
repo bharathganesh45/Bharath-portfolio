@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function ProfileSection() {
   return (
     <section
-      id="profile"
+      id="home"
       style={{
         height: "100vh",
         background: "linear-gradient(135deg, #1f1c2c, #928dab)",

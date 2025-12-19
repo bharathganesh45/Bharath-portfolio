@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function AboutSection() {
+function SkillSection() {
   return (
     <section
-      id="about"
+      id="skills"
       style={{
         height: "100vh",
         background: "linear-gradient(135deg, #141E30, #243B55)",
@@ -25,7 +25,7 @@ function AboutSection() {
         transition={{ duration: 0.8 }}
         style={{ fontSize: "2.5rem", color: "#00e5ff", marginBottom: "20px" }}
       >
-        About Me
+        Skills
       </motion.h1>
 
       {/* Description */}
@@ -63,7 +63,7 @@ function AboutSection() {
           marginTop: "40px",
         }}
       >
-        {["HTML","CSS", "JavaScript","REACT", "Node.js", "MongoDB", "Django",].map((skill, i) => (
+        {["HTML","CSS", "JavaScript","REACT", "Node.js", "MongoDB", "Django", "Sql", "Git","Github"].map((skill, i) => (
           <motion.div
             key={i}
             initial={{ scale: 0, opacity: 0 }}
@@ -111,4 +111,4 @@ function AboutSection() {
   );
 }
 
-export default AboutSection;
+export default SkillSection;

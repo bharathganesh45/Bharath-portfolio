@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
-import Header from "./components/Header.jsx";
+
 import AnimatedNavbar from "./components/Navbar.jsx";
 import ProfileSection from "./components/Profile.jsx";
-import AboutSection from "./components/About.jsx";
+import SkillSection from "./components/Skills.jsx";
 import ProjectsSection from "./components/Project.jsx";
 import ContactSection from "./components/Contact.jsx";
 
@@ -12,11 +12,12 @@ function App() {
     <>
       <Navbar />
       
-      <Header />
+     
 
       <ProfileSection />
 
-      <AboutSection/>
+      <SkillSection />
+    
 
       <ProjectsSection/>
 

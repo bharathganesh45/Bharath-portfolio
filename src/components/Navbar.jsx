@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Navbar() {
-  const navItems = ["Profile", "About", "Projects", "Contact"];
+  const navItems = ["Home", "Skills", "Projects", "Contact"];
 
   // Function to smoothly scroll to section
   const handleScroll = (id) => {
