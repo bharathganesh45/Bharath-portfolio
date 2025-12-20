@@ -3,6 +3,14 @@ import { motion } from "framer-motion";
 
 function ProjectsSection() {
   const projects = [
+    
+     {
+      title: "Learning platform",
+      description:
+        "a Learning platform for update your skills.and showcase my skills. and experiance with smooth scrolls",
+      tech: ["React", "Django", "MongoDB"],
+      link: "https://learning-platform-three-rho.vercel.app/",
+    },
     {
       title: "E-Commerce Platform",
       description:
@@ -10,18 +18,11 @@ function ProjectsSection() {
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
       link: "https://github.com/bharathganesh45/E-comerce-web",
     },
-     {
-      title: "Learning platform",
-      description:
-        "a Learning platform for update your skills.and showcase my skills. and experiance with smooth scrolls",
-      tech: ["React", "Django", "MongoDB"],
-      link: "https://github.com/bharathganesh45/learning-platform",
-    },
     {
       title: "social media web",
       description:
         "Build a social media application, showcasing my project, skills, and experience with smooth animations.",
-      tech: ["React", "Express.js", ""],
+      tech: ["React", "Express.js", "Node.js"],
       link: "https://github.com/bharathganesh45/social-media-platform",
     },
     
