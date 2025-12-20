@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 
 function ProfileSection() {
   return (
@@ -55,6 +57,43 @@ function ProfileSection() {
       >
         Full Stack Web Developer
       </motion.h2>
+      {/* Social Links */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.5 }}
+  style={{
+    display: "flex",
+    gap: "20px",
+    marginTop: "20px",
+  }}
+>
+  <a
+    href="https://github.com/bharathganesh45"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#00e5ff", fontSize: "28px" }}
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/bharathganesh45"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#00e5ff", fontSize: "28px" }}
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="mailto:bharathganesh45@gmail.com"
+    style={{ color: "#00e5ff", fontSize: "28px" }}
+  >
+    <FaEnvelope />
+  </a>
+</motion.div>
+
 
       {/* Description */}
       <motion.p
@@ -71,7 +110,7 @@ function ProfileSection() {
       >
         Passionate about building modern web applications with clean designs,
         interactive animations, and user-friendly experiences. I love working
-        with React, Node.js, Django and everything in between.
+        with React, Node.js, Express.js, Python and everything in between.
       </motion.p>
 
       {/* Animated Button */}

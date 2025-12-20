@@ -68,6 +68,7 @@ function SkillSection() {
         responsive web applications using
         <span style={{ color: "#00e5ff" }}> React</span>,
         <span style={{ color: "#00e5ff" }}> Node.js</span>,
+        <span style={{ color: "#00e5ff" }}> Express.js</span>,
         <span style={{ color: "#00e5ff" }}> MongoDB</span>, and
         <span style={{ color: "#00e5ff" }}> Python</span>   for scripting and backend fundamentals
 
