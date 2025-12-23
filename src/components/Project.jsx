@@ -7,23 +7,24 @@ function ProjectsSection() {
      {
       title: "Learning platform",
       description:
-        "a Learning platform for update your skills.and showcase my skills. and experiance with smooth scrolls",
+        "built a learning platform using React and Django. Implemented user authentication, course listing, and frontend–backend integration throughREST APIs.",
       tech: ["React", "Django", "MongoDB"],
       link: "https://learning-platform-three-rho.vercel.app/",
     },
     {
       title: "E-Commerce Platform",
       description:
-        "A full-stack e-commerce app with user authentication, product management, and secure payment integration.",
+        "built a complete e-commerce platform using the MERN stack with payment integration. Experienced in developing REST APIs, implementing authentication, cart and order workflows, and connecting frontend and backend components.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
       link: "https://github.com/bharathganesh45/E-comerce-web",
     },
     {
       title: "social media web",
       description:
-        "Build a social media application, showcasing my project, skills, and experience with smooth animations.",
+        " Build a MERN stack social media web applications. Familiar with user authentication, RESTful APIs, and managing application state acrossfrontend and backend. Comfortable with JavaScript, React, Node.js, MongoDB, and Git, and eager to grow in a professional development role",
       tech: ["React", "Express.js", "Node.js"],
       link: "https://github.com/bharathganesh45/social-media-platform",
+      link:""
     },
     
    

@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
+
+
 
 function ContactSection() {
+
+
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -47,6 +54,62 @@ function ContactSection() {
       >
         Contact Me
       </motion.h1>
+
+      {/* Direct Contact Links */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.3 }}
+  style={{
+    display: "flex",
+    gap: "30px",
+    marginBottom: "40px",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  }}
+>
+  {/* GitHub */}
+  <a
+    href="https://github.com/bharathganesh45"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color: "#00e5ff",
+      fontSize: "32px",
+      transition: "transform 0.3s ease",
+      
+    }}
+  >
+    <FaGithub />
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/bharathganesh45"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color: "#00e5ff",
+      fontSize: "32px",
+      transition: "transform 0.3s ease",
+    }}
+  >
+    <FaLinkedin />
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:bharathganesh45@gmail.com"
+    style={{
+      color: "#00e5ff",
+      fontSize: "32px",
+      transition: "transform 0.3s ease",
+    }}
+  >
+    <FaEnvelope />
+  </a>
+</motion.div>
+
 
       {/* Subtitle */}
       <motion.p
@@ -160,6 +223,7 @@ function ContactSection() {
           Send Message 💌
         </motion.button>
       </motion.form>
+      
 
       {/* Footer */}
       <motion.p
@@ -172,7 +236,7 @@ function ContactSection() {
           color: "#aaa",
         }}
       >
-        © 2025 Bharath Ganesh | Built with 💙 and React
+        © 2025 Bharath Ganesh | Built with 💙 
       </motion.p>
     </section>
   );

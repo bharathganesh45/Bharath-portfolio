@@ -120,23 +120,54 @@ function SkillSection() {
       </div>
 
       {/* Resume Button */}
-      <motion.a
-        href="/bharath.resume.pdf"
-        whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
-        whileTap={{ scale: 0.95 }}
-        transition={{ type: "spring", stiffness: 300 }}
-        style={{
-          marginTop: "50px",
-          padding: "12px 30px",
-          backgroundColor: "#00e5ff",
-          color: "#111",
-          borderRadius: "30px",
-          textDecoration: "none",
-          fontWeight: "600",
-        }}
-      >
-        Download Resume 📄
-      </motion.a>
+      <div
+  style={{
+    display: "flex",
+    gap: "20px",
+    marginTop: "50px",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  }}
+>
+  {/* View Resume */}
+  <motion.a
+    href="/bharath.resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
+    whileTap={{ scale: 0.95 }}
+    style={{
+      padding: "12px 30px",
+      backgroundColor: "transparent",
+      color: "#00e5ff",
+      border: "2px solid #00e5ff",
+      borderRadius: "30px",
+      textDecoration: "none",
+      fontWeight: "600",
+    }}
+  >
+    View Resume 👀
+  </motion.a>
+
+  {/* Download Resume */}
+  <motion.a
+    href="/bharath.resume.pdf"
+    download="Bharath_Ganesh_Resume.pdf"
+    whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
+    whileTap={{ scale: 0.95 }}
+    style={{
+      padding: "12px 30px",
+      backgroundColor: "#00e5ff",
+      color: "#111",
+      borderRadius: "30px",
+      textDecoration: "none",
+      fontWeight: "600",
+    }}
+  >
+    Download Resume 📄
+  </motion.a>
+</div>
+
     </section>
   );
 }
