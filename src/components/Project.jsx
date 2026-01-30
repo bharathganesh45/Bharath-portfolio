@@ -8,7 +8,7 @@ function ProjectsSection() {
       title: "E-commerce-page",
       description:
         "Create a responsive e-commerce webpage using React.js .cart to enhance user experience.",
-      tech: ["React.js"],
+      tech: ["React.js", "Bootstrap"],
       link: "",
     },
     {

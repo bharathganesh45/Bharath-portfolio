@@ -67,9 +67,9 @@ function SkillSection() {
         I'm a passionate <b>Full Stack Web Developer</b> who builds modern,
         responsive web applications using
         <span style={{ color: "#00e5ff" }}> React</span>,
-        <span style={{ color: "#00e5ff" }}> Node.js</span>,
-        <span style={{ color: "#00e5ff" }}> Express.js</span>,
-        <span style={{ color: "#00e5ff" }}> MongoDB</span>, and
+        <span style={{ color: "#00e5ff" }}> Node.js</span>,and
+        
+        
         <span style={{ color: "#00e5ff" }}> Python</span>   for scripting and backend fundamentals
 
       </motion.p>
@@ -131,7 +131,7 @@ function SkillSection() {
 >
   {/* View Resume */}
   <motion.a
-    href="/bharath.resume.pdf"
+    href="/Bharathjs.resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
@@ -151,7 +151,7 @@ function SkillSection() {
 
   {/* Download Resume */}
   <motion.a
-    href="/bharath.resume.pdf"
+    href="/Bharathjs.resume.pdf"
     download="Bharath_Ganesh_Resume.pdf"
     whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
     whileTap={{ scale: 0.95 }}
