@@ -5,9 +5,9 @@ import {
   DiCss3,
   DiReact,
   DiNodejsSmall,
-  DiMongodb,
+  
   DiGit,
-  DiMysql,
+  
 } from "react-icons/di";
 import { SiGithub, SiJavascript, SiPython } from "react-icons/si";
 
@@ -15,11 +15,11 @@ const skills = [
   { name: "HTML", icon: DiHtml5 },
   { name: "CSS", icon: DiCss3 },
   { name: "JavaScript", icon: SiJavascript },
-  { name: "React", icon: DiReact },
+  { name: "React.js", icon: DiReact },
   { name: "Node.js", icon: DiNodejsSmall },
-  { name: "MongoDB", icon: DiMongodb },
+  
   { name: "Python", icon: SiPython },
-  { name: "SQL", icon: DiMysql },
+ 
   { name: "Git", icon: DiGit },
   { name: "GitHub", icon: SiGithub },
 ];

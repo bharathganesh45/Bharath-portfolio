@@ -5,28 +5,28 @@ function ProjectsSection() {
   const projects = [
     
      {
-      title: "Learning platform",
+      title: "E-commerce-page",
       description:
-        "built a learning platform using React and Django. Implemented user authentication, course listing, and frontend–backend integration throughREST APIs.",
-      tech: ["React", "Django", "MongoDB"],
-      link: "https://learning-platform-three-rho.vercel.app/",
+        "Create a responsive e-commerce webpage using React.js .cart to enhance user experience.",
+      tech: ["React.js"],
+      link: "",
     },
     {
-      title: "E-Commerce Platform",
+      title: "Live-News",
       description:
-        "built a complete e-commerce platform using the MERN stack with payment integration. Experienced in developing REST APIs, implementing authentication, cart and order workflows, and connecting frontend and backend components.",
-      tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
-      link: "https://github.com/bharathganesh45/E-comerce-web",
+        "Create a live news website using React.js. This project fetches real-time news data from a news API and displays it in a user-friendly interface.",
+      tech: ["React.js","API"],
+      link: "",
     },
     {
-      title: "social media web",
+      title: "Car Showroom",
       description:
-        " Build a MERN stack social media web applications. Familiar with user authentication, RESTful APIs, and managing application state acrossfrontend and backend. Comfortable with JavaScript, React, Node.js, MongoDB, and Git, and eager to grow in a professional development role",
-      tech: ["React", "Express.js", "Node.js"],
-      link: "https://github.com/bharathganesh45/social-media-platform",
-      link:""
+        "Build a simple used cars showroom website for selling.Implemented features like car listing. This project helped me understand Javascript fundamentals and Dom manipulation. ",
+      tech: ["Html", "Css", "JavaScript"],
+      link: "https://www.skcars.in/",
+      
     },
-    
+  
    
   ];
 
