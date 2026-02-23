@@ -7,21 +7,21 @@ function ProjectsSection() {
      {
       title: "E-commerce-page",
       description:
-        "Create a responsive e-commerce webpage using React.js .cart to enhance user experience.",
+        "A modern React-powered e-commerce web application deployed on Vercel. This project simulates a real online store and demonstrates handling dynamic product data, responsive UI, and essential shopping flows — all built using React’s component-based architecture.",
       tech: ["React.js", "Bootstrap"],
-      link: "",
+      link: "https://e-commerce-react-chi-nine.vercel.app/",
     },
     {
-      title: "Live-News",
+      title: "Youtube-clone",
       description:
-        "Create a live news website using React.js. This project fetches real-time news data from a news API and displays it in a user-friendly interface.",
+        "Built a fully functional YouTube clone using React.js and the YouTube Data API v3 to replicate core video streaming platform features. The application fetches real-time video data, displays dynamic content, and provides an interactive user experience similar to YouTube.This project strengthened my understanding of frontend architecture, API integration, and building scalable UI components in React.",
       tech: ["React.js","API"],
-      link: "",
+      link: "https://youtube-clone-lake-ten.vercel.app/",
     },
     {
       title: "Car Showroom",
       description:
-        "Build a simple used cars showroom website for selling.Implemented features like car listing. This project helped me understand Javascript fundamentals and Dom manipulation. ",
+        "SKCars is an online presence for a premium pre-owned car dealership that focuses on helping customers buy and sell certified used vehicles. The website showcases a curated inventory of second-hand cars and offers services around vehicle inspection, transparency, and customer support. ",
       tech: ["Html", "Css", "JavaScript"],
       link: "https://www.skcars.in/",
       
