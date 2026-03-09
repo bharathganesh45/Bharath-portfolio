@@ -110,7 +110,7 @@ function ProfileSection() {
       >
         Passionate about building modern web applications with clean designs,
         interactive animations, and user-friendly experiences. I love working
-        with React, Node.js, Python and everything in between.
+        with React, Node.js, Express.js, and everything in between.
       </motion.p>
 
       {/* Animated Button */}

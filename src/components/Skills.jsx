@@ -7,19 +7,20 @@ import {
   DiNodejsSmall,
   
   DiGit,
+  DiNodejs,
   
 } from "react-icons/di";
-import { SiGithub, SiJavascript, SiPython } from "react-icons/si";
+import { SiGithub, SiJavascript, SiPostgresql, SiPython } from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: DiHtml5 },
   { name: "CSS", icon: DiCss3 },
   { name: "JavaScript", icon: SiJavascript },
   { name: "React.js", icon: DiReact },
-  { name: "Node.js", icon: DiNodejsSmall },
-  
+  { name: "Node.js", icon: DiNodejs },
+  { name: "Express.js", icon: DiNodejsSmall },
   { name: "Python", icon: SiPython },
- 
+  { name: "PostgreSQL", icon: SiPostgresql },
   { name: "Git", icon: DiGit },
   { name: "GitHub", icon: SiGithub },
 ];
@@ -70,7 +71,7 @@ function SkillSection() {
         <span style={{ color: "#00e5ff" }}> Node.js</span>,and
         
         
-        <span style={{ color: "#00e5ff" }}> Python</span>   for scripting and backend fundamentals
+        <span style={{ color: "#00e5ff" }}> Express.js</span>   for scripting and backend fundamentals
 
       </motion.p>
 
