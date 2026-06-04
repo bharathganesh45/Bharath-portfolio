@@ -4,8 +4,15 @@ import { motion } from "framer-motion";
 function ProjectsSection() {
   const projects = [
     
-     {
-      title: "E-commerce-page",
+    {
+      title: "Msme Scheme Recomentation system",
+      description:
+        "The MSME Scheme Recommendation Platform is a comprehensive web application designed to help Micro, Small, and Medium Enterprises (MSMEs) discover and access government schemes. The platform intelligently recommends appropriate government schemes based on business characteristics and eligibility criteria.",
+      tech: ["React.js" ,"Node.js", "Express.js", "Jwt", "PostgreSQL"],
+      link: "https://msme-scheme-recommender-systems.vercel.app/"
+    },
+    {
+      title: "E-commerce-Landing-page",
       description:
         "A modern React-powered e-commerce web application deployed on Vercel. This project simulates a real online store and demonstrates handling dynamic product data, responsive UI, and essential shopping flows — all built using React’s component-based architecture.",
       tech: ["React.js", "Bootstrap"],
@@ -15,7 +22,7 @@ function ProjectsSection() {
       title: "Youtube-clone",
       description:
         "Built a fully functional YouTube clone using React.js and the YouTube Data API v3 to replicate core video streaming platform features. The application fetches real-time video data, displays dynamic content, and provides an interactive user experience similar to YouTube.This project strengthened my understanding of frontend architecture, API integration, and building scalable UI components in React.",
-      tech: ["React.js","API"],
+      tech: ["React.js","Youtube API"],
       link: "https://youtube-clone-lake-ten.vercel.app/",
     },
     {

@@ -132,7 +132,7 @@ function SkillSection() {
 >
   {/* View Resume */}
   <motion.a
-    href="/Bharathjs.resume.pdf"
+    href="/Bharath_Ganesh_Fullstack.pdf"
     target="_blank"
     rel="noopener noreferrer"
     whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
@@ -152,8 +152,8 @@ function SkillSection() {
 
   {/* Download Resume */}
   <motion.a
-    href="/Bharathjs.resume.pdf"
-    download="Bharath_Ganesh_Resume.pdf"
+    href="/Bharath_Ganesh_Fullstack.pdf"
+    download="Bharath_Ganesh_Fullstack.pdf"
     whileHover={{ scale: 1.1, boxShadow: "0 0 15px #00e5ff" }}
     whileTap={{ scale: 0.95 }}
     style={{
